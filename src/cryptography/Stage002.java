@@ -1,13 +1,9 @@
 package cryptography;
 
-import java.util.Scanner;
-import java.math.BigInteger;
-import java.security.MessageDigest;
-
 public class Stage002 {
     public static void main(String[] args) {
         char ascii; 
-        String msg, decrypted;
+        String msg, d\ecrypted;
         int cipher;
         
         msg = "rs sri lexiw wsjxaevi qsvi xler wsjxaevi hizipstivw. nijj exassh";
@@ -26,8 +22,6 @@ public class Stage002 {
             decrypted = decrypted + letter;
             
         } 
-        String sha1 = org.apache.commons.codec.digest.DigestUtils.sha1Hex( decrypted );
-        System.out.println(sha1);
         
         System.out.println(decrypted);
     }
