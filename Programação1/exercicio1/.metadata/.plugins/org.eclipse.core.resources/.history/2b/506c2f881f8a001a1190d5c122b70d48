@@ -1,0 +1,12 @@
+package lista2.trabalhoav1;
+
+public class Exerc018 {
+	public static void main(String[] args) {
+		int dd = 21;
+		int mm = 8;
+		int aa = 0;
+
+		System.out.println("Data normal: " + dd + "/0" + mm + "/200" + aa);
+
+	}
+}

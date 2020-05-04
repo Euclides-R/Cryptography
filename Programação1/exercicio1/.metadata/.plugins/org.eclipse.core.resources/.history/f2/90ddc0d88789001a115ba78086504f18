@@ -1,0 +1,12 @@
+package lista2.trabalhoav1;
+
+public class Exerc015 {
+	
+	public static void main(String[] args) {
+		int x = 10;
+		int y = 27;
+		double divisao = x / y;
+		System.out.println("Quociente: "+ divisão + %divisao);
+	}
+
+}

@@ -1,0 +1,8 @@
+package lista2.trabalhoav1;
+
+public class Exerc019 {
+	public static void main(String[] args) {
+		String nome[] = new String[3];
+		
+	}
+}

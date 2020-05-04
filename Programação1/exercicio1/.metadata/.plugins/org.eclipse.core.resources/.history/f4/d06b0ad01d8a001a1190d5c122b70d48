@@ -1,0 +1,31 @@
+package lista2.trabalhoav1;
+
+public class Exerc017 {
+	public static void main(String[] args) {
+		int n[] = new int[3];
+		int a[] = new int[3];
+		int x = 0;
+
+		for (int i = 0; i < 3; i++) {
+			n[i] = i + 1;
+			System.out.println(n[i]);
+		}
+
+		System.out.println("\n");
+
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				if (n[i] > n[j]) {
+					x = n[i];
+					n[i] = n[j];
+					n[j] = x;
+				}
+			}
+		}
+
+		for (int i = 0; i < 3; i++) {
+			a[i] = n[i];
+			System.out.println(a[i]);
+		}
+	}
+}

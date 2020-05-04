@@ -1,0 +1,15 @@
+package lista2.trabalhoav1;
+
+public class Exerc002 {
+	
+	public static void main(String[] args) {
+		double area = 0.0;
+		double base = 5.8;
+		double altura = 4.8;
+		
+		area = (5.8 * 4.8)/2;
+		
+		System.out.println("Calculo da area: " + area + "m²");
+	}
+
+}

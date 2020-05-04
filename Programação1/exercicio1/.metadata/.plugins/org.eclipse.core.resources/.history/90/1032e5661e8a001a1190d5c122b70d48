@@ -1,0 +1,13 @@
+package lista2.trabalhoav1;
+
+public class Exerc018 {
+	public static void main(String[] args) {
+		int dd = 21;
+		int mm = 8;
+		int aa = 0;
+
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Data normal: " + dd+ "/" + mm+ "/" + aa);
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package lista2.trabalhoav1;
+
+import java.util.Scanner;
+
+public class Exerc013 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		int valor = 0;
+		int valor2 = 0;
+
+		System.out.println("Insira 2 valores: ");
+		valor = input.nextInt();
+		valor2 = input.nextInt();
+
+		double media = (valor + valor2) / 2;
+		System.out.println("Valor da media: " + media);
+		input.close();
+	}
+
+}

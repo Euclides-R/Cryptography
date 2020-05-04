@@ -1,0 +1,19 @@
+package lista2.trabalhoav1;
+
+public class Exerc021 {
+	public static void main(String[] args) {
+		int A = 27;
+		int B = 59;
+		int C = 71;
+
+		if ((A + B) > C) {
+			System.out.println("Maior!");
+		}
+		if ((A + B) < C) {
+			System.out.println("Menor!");
+		}
+		if ((A + B) == C) {
+			System.out.println("Igual!");
+		}
+	}
+}

@@ -1,0 +1,40 @@
+package lista1.trabalhoav1;
+
+import java.util.Scanner;
+
+public class Lab01Sistema {
+	
+	Scanner input = new Scanner(System.in);
+	
+	private int agencia = 0;
+	private int conta = 0;
+	private double saldo = 0.0;
+	private String nome_cliente = null;
+	private boolean confirmar = true;
+	
+	public void execCadastramento() {
+		System.out.println("Numero da agencia: ");
+		this.agencia = this.input.nextInt();
+		System.out.println("Numero da conta: ");
+		this.conta = this.input.nextInt();
+		System.out.println("Nome do cliente: ");
+		this.nome_cliente = this.input.next();
+		System.out.println("Saldo: ");
+		this saldo = this.input.nextDouble();
+		
+		
+	}
+	
+	public void execSaque() {
+		
+	}
+	
+	public void execDeposito() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}

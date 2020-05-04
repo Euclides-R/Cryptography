@@ -1,0 +1,14 @@
+package lista2.trabalhoav1;
+
+public class Exerc001 {
+	public static void main(String[] args) {
+		double area = 0.0;
+		double p = 3.14159;
+		double raio2 = 5*2;
+		
+		area = p * raio2;
+		
+		System.out.println("Area tem o tamnho de: " + area);
+		
+	}
+}

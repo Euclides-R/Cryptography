@@ -1,0 +1,11 @@
+package lista2.trabalhoav1;
+
+public class Exerc022 {
+	public static void main(String[] args) {
+		int um = 1;
+		int dez = 10;
+		int mil = 100;
+		int compra = 0;
+		
+	}
+}

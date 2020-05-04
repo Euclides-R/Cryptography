@@ -1,0 +1,19 @@
+package lista2.trabalhoav1;
+
+import java.util.Scanner;
+
+public class Exerc011 {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		int valor = 0;
+		int valor2 = 0;
+		
+		System.out.println("Insira 2 valores: ");
+		valor = input.nextInt();
+		valor2 = input.nextInt();
+		int x = valor + valor2;
+		System.out.println("Soma com Resultado ao Quadrado: "+ (x*x));
+	}
+}

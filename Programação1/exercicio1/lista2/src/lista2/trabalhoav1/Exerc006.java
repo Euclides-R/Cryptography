@@ -1,0 +1,18 @@
+package lista2.trabalhoav1;
+
+import java.util.Scanner;
+
+public class Exerc006 {
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+
+		System.out.println("Escreva em Graus Celsius: ");
+		double c = in.nextDouble();
+		double f = (9 * c + 160) / 5;
+		System.out.println("\nTemperatura em Fahrenheit: " + f);
+		
+		in.close();
+
+	}
+}

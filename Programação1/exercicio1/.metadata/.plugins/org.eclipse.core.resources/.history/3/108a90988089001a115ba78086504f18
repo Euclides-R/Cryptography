@@ -1,0 +1,12 @@
+package lista2.trabalhoav1;
+
+import java.util.Scanner;
+
+public class Exerc003 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Escreva seu nome: ");
+		String nome = input.next();
+		input.close();
+	}
+}
