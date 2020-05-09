@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class Lab03ContaCorrente {
+public class Lab03ContaCorrente  extends Lab05ContaCorrenteEspecial {
 	private int numAge;
 	private int numConta;
 	private String nome;
